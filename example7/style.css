@@ -1,0 +1,44 @@
+body {
+	background: linear-gradient(#000000, #8a8a8a);
+	margin: 0rem;
+	min-height: 100vh;
+	font-family: Futura, sans-serif;
+  }
+  #canvas, #text {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	z-index: -1;
+  }
+  #text {
+	min-height: 100vh;
+	width: 100vw;
+	z-index: 1;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 8vmin;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+  }
+  #text h1 {
+	opacity: 0.9
+  }
+  
+  
+  
+#lines { 
+	background:#333e4b;
+	width:100%;
+	height: 100%;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	}
+	#lines:hover { 
+	background:#3D689C;
+	}
